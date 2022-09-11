@@ -9,8 +9,7 @@
 .docusaurus
 .firebase
 .cache-loader
-
-# ignore .firebaserc
+.firebaserc
 
 # ignore firebase.json
 
