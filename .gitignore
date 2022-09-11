@@ -1,15 +1,18 @@
 # Dependencies
 /node_modules
+/.firebase
 
 # Production
 /build
 
 # Generated files
 .docusaurus
-.firebaserc
 .firebase
-firebase.json
 .cache-loader
+
+# ignore .firebaserc
+
+# ignore firebase.json
 
 # Misc
 .DS_Store

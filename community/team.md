@@ -1,30 +1,43 @@
----
-sidebar_position: 2
----
 # Team
-We have a community of hundreds of spce enthusiasts.
 
-On this page we've listed some Docusaurus-related communities that you can be a part of; see the other pages in this section for additional online and in-person learning materials.
+import {
+  ActiveTeamRow,
+  HonoraryAlumniTeamRow,
+  StudentFellowsTeamRow,
+} from '@site/src/components/TeamProfileCards';
 
-Before participating in Docusaurus' communities, [please read our Code of Conduct](https://engineering.fb.com/codeofconduct/). We have adopted the [Contributor Covenant](https://www.contributor-covenant.org/) and we expect that all community members adhere to the guidelines within.
+## Active Team {#active-team}
 
-## Stack Overflow {#stack-overflow}
+The Bartosat team works on the core functionality, plugins for the classic theme, as well as the Docusaurus documentation website.
 
-Stack Overflow is a popular forum to ask code-level questions or if you're stuck with a specific error. Read through the [existing questions](https://stackoverflow.com/questions/tagged/docusaurus) tagged with **docusaurus** or [ask your own](https://stackoverflow.com/questions/ask?tags=docusaurus)!
+Current members of the Docusaurus team are listed in alphabetical order below.
 
-## Discussion forums {#discussion-forums}
+<ActiveTeamRow />
 
-There are many online forums for discussion about best practices and application architecture as well as the future of Docusaurus. If you have an answerable code-level question, Stack Overflow is usually a better fit.
+## Honorary Alumni {#honorary-alumni}
 
-- [Docusaurus online chat](https://discord.gg/docusaurus)
-  - [#help-and-questions](https://discord.gg/fwbcrQ3dHR) for user help
-  - [#contributors](https://discord.gg/6g6ASPA) for contributing help
-- [Reddit's Docusaurus community](https://www.reddit.com/r/docusaurus/)
+Docusaurus would never be what it is today without the huge contributions from these folks who have moved on to bigger and greater things.
 
-## Feature requests {#feature-requests}
+<HonoraryAlumniTeamRow />
 
-For new feature requests, you can create a post on our [feature requests board (Canny)](#), which is a handy tool for road-mapping and allows for sorting by upvotes, which gives the core team a better indicator of what features are in high demand, as compared to GitHub issues which are harder to triage. Refrain from making a Pull Request for new features (especially large ones) as someone might already be working on it or will be part of our roadmap. Talk to us first!
+## Student Fellows {#student-fellows}
 
-## News {#news}
+A handful of students have also worked on Docusaurus as part of their school term/internship and the [Major League Hacking Fellowship program](https://fellowship.mlh.io/), contributing amazing features such as plugin options validation, migration tooling, and a Bootstrap theme.
 
-For the latest news about Docusaurus, [follow **@docusaurus** on Twitter](https://twitter.com/docusaurus) and the [official Docusaurus blog](/blog) on this website.
+<StudentFellowsTeamRow />
+
+## Acknowledgements {#acknowledgements}
+
+Docusaurus was originally created by Joel Marcey. Today, Docusaurus has a few hundred open source contributors. We’d like to recognize a few people who have made significant contributions to Docusaurus and its documentation in the past and have helped maintain them over the years:
+
+- [Amy Lam](https://github.com/amyrlam)
+- [Cheng Lou](https://github.com/chenglou)
+- [Christine Abernathy](https://github.com/caabernathy)
+- [Christopher Chedeau](https://github.com/vjeux)
+- [Elvis Wolcott](https://github.com/elviswolcott)
+- [Eric Nakagawa](https://github.com/ericnakagawa)
+- [Fienny Angelina](https://github.com/fiennyangeln)
+- [Frank Li](https://github.com/deltice)
+- [Héctor Ramos](https://github.com/hramos)
+- [Ramón Lamana](https://github.com/rlamana)
+- [Ricky Vetter](https://github.com/rickyvetter)

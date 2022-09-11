@@ -10,7 +10,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Design it',
+    title: 'Design ',
     Svg: require('@site/static/img/designit.svg').default,
     description: (
       <>
@@ -19,7 +19,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Test it',
+    title: 'Test',
     Svg: require('@site/static/img/testit.svg').default,
     description: (
       <>
@@ -28,7 +28,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Launch it',
+    title: 'Launch',
     Svg: require('@site/static/img/isro.svg').default,
     description: (
       <>

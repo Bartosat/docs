@@ -1,30 +1,62 @@
----
-sidebar_position: 3
----
-# Resources
-We have a community of hundreds of spce enthusiasts.
+# Awesome Resources
 
-On this page we've listed some Docusaurus-related communities that you can be a part of; see the other pages in this section for additional online and in-person learning materials.
+A curated list of interesting Docusaurus community projects.
 
-Before participating in Docusaurus' communities, [please read our Code of Conduct](https://engineering.fb.com/codeofconduct/). We have adopted the [Contributor Covenant](https://www.contributor-covenant.org/) and we expect that all community members adhere to the guidelines within.
+## Videos {#videos}
 
-## Stack Overflow {#stack-overflow}
+- [F8 2019: Using Docusaurus to Create Open Source Websites](https://www.youtube.com/watch?v=QcGJsf6mgZE)
 
-Stack Overflow is a popular forum to ask code-level questions or if you're stuck with a specific error. Read through the [existing questions](https://stackoverflow.com/questions/tagged/docusaurus) tagged with **docusaurus** or [ask your own](https://stackoverflow.com/questions/ask?tags=docusaurus)!
+## Articles {#articles}
 
-## Discussion forums {#discussion-forums}
+- [Awesome Docusaurus](https://github.com/webbertakken/awesome-docusaurus#readme) - Community curated list of Docusaurus resources.
+- [Live code editing in Docusaurus](https://dev.to/mrmuhammadali/live-code-editing-in-docusaurus-ux-at-its-best-2hj1)
 
-There are many online forums for discussion about best practices and application architecture as well as the future of Docusaurus. If you have an answerable code-level question, Stack Overflow is usually a better fit.
+## Showcase {#showcase}
 
-- [Docusaurus online chat](https://discord.gg/docusaurus)
-  - [#help-and-questions](https://discord.gg/fwbcrQ3dHR) for user help
-  - [#contributors](https://discord.gg/6g6ASPA) for contributing help
-- [Reddit's Docusaurus community](https://www.reddit.com/r/docusaurus/)
+See the <a href={require('@docusaurus/useBaseUrl').default('showcase')}>showcase</a>.
 
-## Feature requests {#feature-requests}
+## Community plugins {#community-plugins}
 
-For new feature requests, you can create a post on our [feature requests board (Canny)](#), which is a handy tool for road-mapping and allows for sorting by upvotes, which gives the core team a better indicator of what features are in high demand, as compared to GitHub issues which are harder to triage. Refrain from making a Pull Request for new features (especially large ones) as someone might already be working on it or will be part of our roadmap. Talk to us first!
+### Search {#search}
 
-## News {#news}
+- [docusaurus-plugin-lunr](https://github.com/daldridge/docusaurus-plugin-lunr) - Docusaurus v2 plugin to create a local search index for use with Lunr.js
+- [docusaurus-lunr-search](https://github.com/lelouch77/docusaurus-lunr-search) - Offline Search for Docusaurus v2
+- [docusaurus-search-local](https://github.com/cmfcmf/docusaurus-search-local) - Offline/local search for Docusaurus v2
+- [@easyops-cn/docusaurus-search-local](https://github.com/easyops-cn/docusaurus-search-local) - Offline/local search for Docusaurus v2 (language of zh supported)
+- [docusaurus-theme-search-typesense](https://github.com/typesense/docusaurus-theme-search-typesense) - Docusaurus v2 plugin for [Typesense DocSearch](https://typesense.org/docs/latest/guide/docsearch.html).
 
-For the latest news about Docusaurus, [follow **@docusaurus** on Twitter](https://twitter.com/docusaurus) and the [official Docusaurus blog](/blog) on this website.
+### Integrations {#integrations}
+
+- [docusaurus2-dotenv](https://github.com/jonnynabors/docusaurus2-dotenv) - A Docusaurus 2 plugin that supports dotenv and other environment variables
+- [posthog-docusaurus](https://github.com/PostHog/posthog-docusaurus) - Integrate [PostHog](https://posthog.com/) product analytics with Docusaurus v2
+- [docusaurus-plugin-moesif](https://github.com/Moesif/docusaurus-plugin-moesif) - Adds [Moesif API Analytics](https://www.moesif.com/) to track user behavior and pinpoint where developers drop off in your activation funnel.
+- [docusaurus-plugin-yandex-metrica](https://github.com/sgromkov/docusaurus-plugin-yandex-metrica) - Adds [Yandex Metrika](https://metrika.yandex.ru/) counter for evaluating site traffic and analyzing user behavior.
+
+### Features {#features}
+
+- [docusaurus-plugin-relative-paths](https://github.com/ohkimur/docusaurus-plugin-relative-paths) - Docusaurus plugin to convert absolute paths to relative paths. Make the build files accessible from anywhere without a server
+- [docusaurus-theme-github-codeblock](https://github.com/saucelabs/docusaurus-theme-github-codeblock). A Docusaurus v2 plugin that supports referencing code examples from public GitHub repositories
+- [mr-pdf](https://github.com/kohheepeace/mr-pdf) - Generate documentation into PDF format, suitable for Docusaurus v1 and v2 (including beta versions)
+- [docusaurus-plugin-sass](https://github.com/rlamana/docusaurus-plugin-sass) - Sass/SCSS stylesheets support
+- [docusaurus-plugin-remote-content](https://github.com/rdilweb/docusaurus-plugin-remote-content) - A Docusaurus v2 plugin that allows you to fetch content from remote sources
+- [docusaurus2-graphql-doc-generator](https://github.com/edno/docusaurus2-graphql-doc-generator) - A Docusaurus v2 plugin for generating documentation from a GraphQL schema
+- [docusaurus-plugin-react-docgen-typescript](https://github.com/atomicpages/docusaurus-plugin-react-docgen-typescript) - A Docusaurus v2 plugin for loading type annotations from `react-docgen-typescript`
+- [docusaurus-plugin-react-docgen](https://github.com/atomicpages/docusaurus-plugin-react-docgen) - A Docusaurus v2 plugin for loading type annotations from `react-docgen`
+- [docusaurus-plugin-module-alias](https://github.com/atomicpages/docusaurus-plugin-module-alias) - A Docusaurus v2 plugin for quickly aliasing local modules
+- [docusaurus-protobuffet](https://github.com/protobuffet/docusaurus-protobuffet) - Docusaurus toolset for Protobuf contract documentation
+- [docusaurus-prince-pdf](https://github.com/signcl/docusaurus-prince-pdf) - Generate PDF with PrinceXML for better font subsetting and ToC features. Support Docusaurus v2 sites
+- [mdx-mermaid](https://github.com/sjwall/mdx-mermaid) - A Docusaurus v2 compatible MDX plugin for displaying [Mermaid](https://mermaid-js.github.io/mermaid) diagrams
+- [redocusaurus](https://github.com/rohit-gohri/redocusaurus) - A Docusaurus preset for integrating OpenAPI documentation into your docs with [Redoc](https://github.com/redocly/redoc)
+- [plugin-image-zoom](https://github.com/flexanalytics/plugin-image-zoom) - An Image Zoom plugin for Docusaurus 2
+- [docusaurus-plugin-typedoc](https://github.com/tgreyuk/typedoc-plugin-markdown/tree/master/packages/docusaurus-plugin-typedoc) - A Docusaurus 2 plugin to build documentation with [TypeDoc](https://typedoc.org/)
+- [docusaurus-openapi-docs](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs) - A Docusaurus v2 plugin and theme for generating interactive OpenAPI docs
+- [docusaurus-post-generator](https://github.com/moojing/docusaurus-post-generator) - A command line tool for user to add a blog/doc file quickly by command like `yarn gen-post new [template] [post_name]`.
+
+## Enterprise usage {#enterprise-usage}
+
+- Facebook
+- Google
+- Stripe
+- Algolia
+- Callstack
+- Sauce Labs
