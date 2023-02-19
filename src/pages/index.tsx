@@ -16,7 +16,6 @@ function HeroBanner() {
       <div className="container">
         <p className={styles.hero__subtitle}>
           <q><i>Although space program seems to lead us away from our Earth and out toward the moon, the sun, the planets, and the stars, I believe that none of these celestial objects will find as much attention and study by space scientists as our Earth. It will become a better Earth, not only because of all the new technological and scientific knowledge which we will apply to the betterment of life, but also because we are developing a far deeper appreciation of our Earth, of life, and of man</i></q> - Dr. Ernst Stuhlinger</p>
-
       </div>
     </header>
   );
@@ -40,14 +39,14 @@ function HomepageHeader() {
               __html: translate({
                 id: 'homepage.hero.title',
                 message:
-                  'The Gecb <b>Student</b> Satellite <b>Program</b> , <b>Bartosat 1</b>',
+                  'Gecb <b>Student</b> Satellite <b>Program</b> , <b>Bartosat 1</b>',
                 description:
                   'Welcome to the official site of Bartosat.',
               }),
             }}
           />
         </h1> 
-          <p className={styles.hero__subtitle}>In Jan 2021, a nano-satellite project was initiated at Govt Engineering College Barton Hill, Trivandrum in order to give graduate students the rare opportunity to experience all the challenging aspects associated with satellite design, manufacture, launch and operation. The nano- satellite follows the design concept of a 1U CubeSat, which has the shape of a cube of 10cm3 edge, of 1.33kg mass and which consumes a power of 1W. </p> 
+          <p className={styles.hero__subtitle}>In Jan 2021, a nano-satellite project was initiated at Govt Engineering College Barton Hill, Trivandrum in order to give graduate students the rare opportunity to experience all the challenging aspects associated with satellite design, manufacture, launch and operation. The nano- satellite follows the design concept of a 1U CubeSat, which has the shape of a cube of 10cm, of 1.33kg mass and which consumes a power of 2W. </p> 
         <div className={styles.indexCtas}>
           <Link className="button button--primary" to="/docs/intro">
             <Translate>View Docs</Translate>

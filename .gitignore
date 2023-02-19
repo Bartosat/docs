@@ -11,7 +11,7 @@
 .cache-loader
 .firebaserc
 
-# ignore firebase.json
+firebase.json
 
 # Misc
 .DS_Store

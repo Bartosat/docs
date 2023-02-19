@@ -13,7 +13,7 @@ A curated list of interesting Docusaurus community projects.
 
 ## Showcase {#showcase}
 
-See the <a href={require('@docusaurus/useBaseUrl').default('showcase')}>showcase</a>.
+See the [showcase](#)
 
 ## Community plugins {#community-plugins}
 
