@@ -16,7 +16,7 @@ Current members of the Docusaurus team are listed in alphabetical order below.
 
 ## Honorary Alumni {#honorary-alumni}
 
-Docusaurus would never be what it is today without the huge contributions from these folks who have moved on to bigger and greater things.
+The GSSP was started by our beloved alumni Azeem and Aswin
 
 <HonoraryAlumniTeamRow />
 

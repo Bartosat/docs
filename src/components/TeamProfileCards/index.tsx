@@ -80,38 +80,21 @@ export function ActiveTeamRow(): JSX.Element {
         <div className="row">
             <TeamProfileCardCol
                 name="Amalnath R N"
-                githubUrl="https://github.com/heicsagon"> 
+                githubUrl="https://github.com/amalnathh"> 
                 Current Project Lead, Obsessed open-source enthusiast 👋 Eternal amateur at everything 🤷‍♂️ 
             </TeamProfileCardCol>
-            <TeamProfileCardCol
-                name="Anandhu"
-                githubUrl="https://github.com/JoelMarcey"
-                twitterUrl="https://twitter.com/joelmarcey"> 
-                    Docusaurus founder and now ever grateful Docusaurus cheerleader to
-                    those who actually write code for it. 
-            </TeamProfileCardCol>
+            
             <TeamProfileCardCol
                 name="Jijesh J Kumar"
-                githubUrl="https://github.com/slorber"
-                twitterUrl="https://twitter.com/sebastienlorber">
+                githubUrl="https://github.com/JJK011">
                 Financial Manager 
             </TeamProfileCardCol>
             <TeamProfileCardCol
                 name="Ganesh Menon"
-                githubUrl="https://github.com/Josh-Cena"
-                twitterUrl="https://twitter.com/SidaChen63">
-                    additional text
+                githubUrl="https://github.com/NEONGASHMEN" >
+                Beloved alumni
             </TeamProfileCardCol>
-            <TeamProfileCardCol
-                name="Prajeesh P J"
-                githubUrl="https://github.com/yangshun"
-                twitterUrl="https://twitter.com/yangshunz">
-                <Translate id="team.profile.Yangshun Tay.body">
-                    Full Front End Stack developer who likes working on the Jamstack.
-                    Working on Docusaurus made him Facebook&apos;s unofficial part-time
-                    Open Source webmaster, which is an awesome role to be in.
-                </Translate>
-            </TeamProfileCardCol>
+             
             <TeamProfileCardCol
                 name="Dr Anish K John"
                 githubUrl="https://github.com/yangshun"
